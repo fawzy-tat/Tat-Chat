@@ -116,6 +116,8 @@ const Chat = () => {
       });
     }
   };
+  console.log(name);
+  console.log(room);
 
   return (
     <div className={classes.root}>
