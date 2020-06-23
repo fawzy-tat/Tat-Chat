@@ -57,7 +57,7 @@ const Chat = () => {
   const classes = useStyles();
   const location = useLocation();
 
-  const Endpoint = "localhost:5000";
+  const Endpoint = "https://tat-chat.herokuapp.com";
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
   const [message, setMessage] = useState("");
